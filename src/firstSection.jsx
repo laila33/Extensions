@@ -1,5 +1,5 @@
 import icon from "./assets/vector.png";
-import setting from "./assets/img2.png";
+import setting from "./assets/Vector.png"
 export default function FirstSection() {
   return (
     <div className=" flex content-center justify-center	 ">

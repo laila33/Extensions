@@ -1,6 +1,6 @@
-import Cards from "./cards";
-import FirstSection from "./firstSection";
-import Secondsection from "./secondsection";
+import Cards from "./Card";
+import FirstSection from "./FirstSection";
+// import Secondsection from "./Secondsection";
 
 export default function App() {
   return (

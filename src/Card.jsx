@@ -13,14 +13,13 @@ import img12 from "./assets/Extension5.png";
 import img13 from "./assets/Extension6.png";
 import img14 from "./assets/_Toggle2.png";
 
-
 export default function Cards() {
   return (
     <>
-      <div className="flex flex-cols items-center justify-center mt-10">
-        <div className="w-5/6 flex justify-between gap-6">
+      <div className="flex flex-col items-center justify-center mt-10">
+        <div className="w-5/6 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {/* Card 1 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img1} />
               <div>
@@ -41,14 +40,14 @@ export default function Cards() {
           </div>
 
           {/* Card 2 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img3} />
               <div>
                 <h2 className="font-bold text-[#091540] text-2xl mb-2">
                   StyleSpy
                 </h2>
-                <p>Instantly analyze and copy CSS from any webpage element. </p>
+                <p>Instantly analyze and copy CSS from any webpage element.</p>
               </div>
             </div>
             <div className="flex justify-between items-center mt-12 ml-6 mb-6">
@@ -60,7 +59,7 @@ export default function Cards() {
           </div>
 
           {/* Card 3 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img4} />
               <div>
@@ -68,7 +67,7 @@ export default function Cards() {
                   SpeedBoost
                 </h2>
                 <p>
-                  Optimizes browser resource usage to accelerate page loading.{" "}
+                  Optimizes browser resource usage to accelerate page loading.
                 </p>
               </div>
             </div>
@@ -79,12 +78,9 @@ export default function Cards() {
               <img className="w-[36px] h-[20px] mr-6" src={img14} />
             </div>
           </div>
-        </div>
-      </div>
-      <div className="flex flex-cols items-center justify-center mt-8">
-        <div className="w-5/6 flex justify-between gap-6">
-          {/* Card 1 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+
+          {/* Card 4 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img5} />
               <div>
@@ -92,7 +88,7 @@ export default function Cards() {
                   JSONWizard
                 </h2>
                 <p>
-                  Formats, validates, and prettifies JSON responses in-browser.{" "}
+                  Formats, validates, and prettifies JSON responses in-browser.
                 </p>
               </div>
             </div>
@@ -104,15 +100,15 @@ export default function Cards() {
             </div>
           </div>
 
-          {/* Card 2 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          {/* Card 5 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img5} />
               <div>
                 <h2 className="font-bold text-[#091540] text-2xl mb-2">
                   TabMaster Pro
                 </h2>
-                <p>Organizes browser tabs into groups and sessions. </p>
+                <p>Organizes browser tabs into groups and sessions.</p>
               </div>
             </div>
             <div className="flex justify-between items-center mt-12 ml-6 mb-6">
@@ -123,8 +119,8 @@ export default function Cards() {
             </div>
           </div>
 
-          {/* Card 3 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          {/* Card 6 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img7} />
               <div>
@@ -133,7 +129,7 @@ export default function Cards() {
                 </h2>
                 <p>
                   Simulates various screen resolutions directly within the
-                  browser.{" "}
+                  browser.
                 </p>
               </div>
             </div>
@@ -144,12 +140,9 @@ export default function Cards() {
               <img className="w-[36px] h-[20px] mr-6" src={img14} />
             </div>
           </div>
-        </div>
-      </div>
-      <div className="flex flex-cols items-center justify-center mt-8">
-        <div className="w-5/6 flex justify-between gap-6">
-          {/* Card 1 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+
+          {/* Card 7 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img8} />
               <div>
@@ -158,7 +151,7 @@ export default function Cards() {
                 </h2>
                 <p>
                   Enables annotation and notes directly onto webpages for
-                  collaborative debugging.{" "}
+                  collaborative debugging.
                 </p>
               </div>
             </div>
@@ -170,8 +163,8 @@ export default function Cards() {
             </div>
           </div>
 
-          {/* Card 2 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          {/* Card 8 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img9} />
               <div>
@@ -180,7 +173,7 @@ export default function Cards() {
                 </h2>
                 <p>
                   Overlay customizable grids and alignment guides on any
-                  webpage.{" "}
+                  webpage.
                 </p>
               </div>
             </div>
@@ -192,37 +185,15 @@ export default function Cards() {
             </div>
           </div>
 
-          {/* Card 3 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          {/* Card 9 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img10} />
               <div>
                 <h2 className="font-bold text-[#091540] text-2xl mb-2">
                   Palette Picker
                 </h2>
-                <p>Instantly extracts color palettes from any webpage. </p>
-              </div>
-            </div>
-            <div className="flex justify-between items-center mt-12 ml-6 mb-6">
-              <button className="border border-black rounded-3xl w-[91px] h-[38px]">
-                Remove
-              </button>
-              <img className="w-[36px] h-[20px] mr-6" src={img2} />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-cols items-center justify-center mt-8">
-        <div className="w-5/6 flex justify-between gap-6">
-          {/* Card 1 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
-            <div className="flex gap-5 mt-6 ml-6">
-              <img className="w-[60px] h-[60px]" src={img11} />
-              <div>
-                <h2 className="font-bold text-[#091540] text-2xl mb-2">
-                  LinkChecker
-                </h2>
-                <p>Scans and highlights broken links on any page. </p>
+                <p>Instantly extracts color palettes from any webpage.</p>
               </div>
             </div>
             <div className="flex justify-between items-center mt-12 ml-6 mb-6">
@@ -233,15 +204,34 @@ export default function Cards() {
             </div>
           </div>
 
-          {/* Card 2 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          {/* Card 10 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+            <div className="flex gap-5 mt-6 ml-6">
+              <img className="w-[60px] h-[60px]" src={img11} />
+              <div>
+                <h2 className="font-bold text-[#091540] text-2xl mb-2">
+                  LinkChecker
+                </h2>
+                <p>Scans and highlights broken links on any page.</p>
+              </div>
+            </div>
+            <div className="flex justify-between items-center mt-12 ml-6 mb-6">
+              <button className="border border-black rounded-3xl w-[91px] h-[38px]">
+                Remove
+              </button>
+              <img className="w-[36px] h-[20px] mr-6" src={img2} />
+            </div>
+          </div>
+
+          {/* Card 11 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img12} />
               <div>
                 <h2 className="font-bold text-[#091540] text-2xl mb-2">
                   DOM Snapshot
                 </h2>
-                <p>Capture and export DOM structures quickly. </p>
+                <p>Capture and export DOM structures quickly.</p>
               </div>
             </div>
             <div className="flex justify-between items-center mt-12 ml-6 mb-6">
@@ -252,8 +242,8 @@ export default function Cards() {
             </div>
           </div>
 
-          {/* Card 3 */}
-          <div className="card1 flex-1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
+          {/* Card 12 */}
+          <div className="card1 bg-[#FBFDFE] rounded-3xl flex flex-col gap-5">
             <div className="flex gap-5 mt-6 ml-6">
               <img className="w-[60px] h-[60px]" src={img13} />
               <div>
@@ -262,7 +252,7 @@ export default function Cards() {
                 </h2>
                 <p>
                   Enhanced developer console with advanced filtering and
-                  logging.{" "}
+                  logging.
                 </p>
               </div>
             </div>

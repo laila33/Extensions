@@ -1,5 +1,5 @@
 import icon from "./assets/vector.png";
-import setting from "./assets/Vector.png"
+import img15 from "./assets/Settings.png"
 export default function FirstSection() {
   return (
     <div className=" flex content-center justify-center	 ">
@@ -13,7 +13,7 @@ export default function FirstSection() {
           </span>
         </div>
         <div>
-          <img className="mr-4 my-2" src={setting} />
+          <img className="mr-4 my-2" src={img15} />
         </div>
       </div>
     </div>

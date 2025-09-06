@@ -1,4 +1,4 @@
-import icon from "./assets/vector.png";
+import icon from "./assets/Vector.png";
 import img15 from "./assets/Settings.png"
 export default function FirstSection() {
   return (

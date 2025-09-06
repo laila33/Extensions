@@ -1,13 +1,12 @@
 import Cards from "./Card";
-import FirstSection from "./FirstSection";
 import Secondsection from "./secondsection";
-
+import FirstSection from "./FirstSection";
 export default function App() {
   return (
     <div>
       <FirstSection />
       <Secondsection />
-      <Cards/>
+      <Cards />
     </div>
   );
 }
